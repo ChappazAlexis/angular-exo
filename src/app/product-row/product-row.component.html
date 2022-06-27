@@ -1,0 +1,25 @@
+<td>{{productId}}</td>
+<td>{{productName}}</td>
+<td>{{productStatus}}</td>
+<td>
+  <button type="button"
+          class="btn btn-dark m-2"
+          (click)="onSwitchStatus(index)">{{nextStatus}}
+  </button>
+
+  <button type="button"
+          class="btn btn-success m-2">
+    <a class="text-white" [routerLink]="productId">Détails</a>
+  </button>
+
+  <button type="button"
+          class="btn btn-warning m-2">
+    <a class="text-white" [routerLink]="editRoute">Modifier</a>
+  </button>
+
+  <button type="button"
+          class="btn btn-danger m-2"
+          (click)="onDeleteProduct()">
+    Supprimer
+  </button>
+</td>

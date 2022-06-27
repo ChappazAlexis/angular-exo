@@ -1,0 +1,50 @@
+<app-header></app-header>
+
+<div class="container text-center">
+
+  <form [formGroup]="editProductForm"
+        (ngSubmit)="onSubmitEditProduct()">
+
+    <div class="form-group">
+      <label for="name">
+        Nom du produit
+      </label>
+      <input type="text"
+             id="name"
+             class="form-control"
+             name="name"
+             formControlName="name">
+    </div>
+
+    <div class="form-group">
+      <label for="description">
+        Description
+      </label>
+      <textarea
+        id="description"
+        class="form-control"
+        name="description"
+        formControlName="description">
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="status">
+        Disponibilité du produit
+      </label>
+      <select id="status"
+              class="form-control"
+              name="status"
+              formControlName="status">
+        <option value="en stock">En stock</option>
+        <option value="pas en stock">Pas en stock</option>
+      </select>
+    </div>
+    <button class="btn btn-primary" type="submit" [disabled]="editProductForm.invalid">Modifier !</button>
+
+    <br>
+
+    <a routerLink="/products" class="card-link">Retour vers les produits</a>
+  </form>
+
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+
+  <div class="d-flex justify-content-between">
+    <button type="button"
+            class="p-4 btn btn-dark">
+      <a routerLink="/new/product" class="card-link text-white">
+        Ajouter un produit
+      </a>
+    </button>
+
+    <h1 class="p-1">Products Manager !</h1>
+
+    <button type="button"
+            class="p-4 btn btn-dark"
+            (click)="onShowProfil()">Mon profil
+    </button>
+
+    <button type="button"
+            class="p-4 btn btn-dark"
+            (click)="onSignOut()">Déconnexion
+    </button>
+  </div>
+
+</div>
+
+<hr>
