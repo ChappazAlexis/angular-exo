@@ -19,7 +19,7 @@ export class AuthService {
   checkAuth(email: string, pwd: string) {
 
     const currentUser = this.userService.user;
-
+ 
     return new Promise(
       (res, rej) => {
         setTimeout(

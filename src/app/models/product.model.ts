@@ -6,3 +6,4 @@ export class Product {
     public status: string,
   ) {}
 }
+ 

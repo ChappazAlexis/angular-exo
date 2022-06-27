@@ -23,3 +23,4 @@ describe('SingleProductViewComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+ 

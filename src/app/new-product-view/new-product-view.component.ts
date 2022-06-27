@@ -19,7 +19,7 @@ export class NewProductViewComponent implements OnInit {
   ngOnInit() {
     this.initForm();
   }
-
+ 
   /**
    * Method for initialize all the controls for the new product form
    */

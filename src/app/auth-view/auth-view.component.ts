@@ -32,7 +32,7 @@ export class AuthViewComponent implements OnInit {
       password: ['', Validators.required]
     });
   }
-
+ 
   /**
    * Method when user submit auth form
    */

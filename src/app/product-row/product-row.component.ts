@@ -23,7 +23,7 @@ export class ProductRowComponent implements OnInit {
 
     this.editRoute = '/edit/product/' + this.productId;
   }
-
+ 
   /**
    * Method for define the next status for the button
    * @param comparator The element to compare for select the next status

@@ -19,7 +19,7 @@ export class ProfilViewComponent implements OnInit {
   constructor(private userService: UserService, private formBuilder: FormBuilder) {
 
   }
-
+ 
   ngOnInit() {
     this.currentUser = this.userService.user;
 

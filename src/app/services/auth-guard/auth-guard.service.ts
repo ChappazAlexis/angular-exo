@@ -20,7 +20,7 @@ export class AuthGuardService {
     if (this.authService.isAuth) {
       return true;
     }
-
+ 
     this.router.navigate(['/auth']);
   }
 

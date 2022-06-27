@@ -30,7 +30,7 @@ import {ReactiveFormsModule} from '@angular/forms';
     ProfilViewComponent,
     EditProductViewComponent,
     NewProductViewComponent
-  ],
+  ], 
   imports: [
     BrowserModule,
     AppRoutingModule,

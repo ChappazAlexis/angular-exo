@@ -25,7 +25,7 @@ export class EditProductViewComponent implements OnInit {
 
     this.initForm();
   }
-
+ 
   /**
    * Method for initialize all the controls for the new product form
    */

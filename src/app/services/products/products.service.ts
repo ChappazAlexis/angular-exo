@@ -18,7 +18,7 @@ export class ProductsService {
     ];
 
   }
-
+ 
   /**
    * Method for switch the status of all the products
    * @param newStatus The new status to set

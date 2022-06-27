@@ -23,3 +23,4 @@ describe('AuthViewComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+ 

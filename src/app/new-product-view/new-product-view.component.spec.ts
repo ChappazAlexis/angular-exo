@@ -12,7 +12,7 @@ describe('NewProductViewComponent', () => {
     })
     .compileComponents();
   }));
-
+ 
   beforeEach(() => {
     fixture = TestBed.createComponent(NewProductViewComponent);
     component = fixture.componentInstance;

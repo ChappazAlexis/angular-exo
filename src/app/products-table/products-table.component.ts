@@ -31,3 +31,4 @@ export class ProductsTableComponent implements OnInit {
     }
   }
 }
+ 
